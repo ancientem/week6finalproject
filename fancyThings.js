@@ -14,9 +14,9 @@ $('#originalSubmit').on('click', function(event){
           <div class="commentStyling" class="h2" style="font-size:25px;font-weight:400">${$('#comment').val()}</div>
         </div>
         <div id="commentsection2">
-          <div class="commentEditing" class="edits" id="edit">Edit</div>
+          <div class="commentEditing" class="edits" id="edit" style="color:#519499">Edit</div>
           <hr>
-          <div class="commentEditing" class="edits" id="delete">Delete</div>
+          <div class="commentEditing" class="edits" id="delete" style="color:#519499">Delete</div>
         </div>
       </div>
     </div>
